@@ -1,0 +1,1 @@
+import { AppRegistry } from 'react-native';\nimport App from '../src/App';\n\nAppRegistry.registerComponent('main', () => App);\nAppRegistry.runApplication('main', {\n  rootTag: document.getElementById('root'),\n  hydrate: true,\n});\n
