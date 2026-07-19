@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Inventory Manager",
+    "slug": "inventory-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": ["android.permission.CAMERA"]
+    }
+  }
+}
